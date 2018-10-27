@@ -117,7 +117,7 @@
         var liTmpl = "";
         for (var i = 0, len = data.link.length; i < len; i++) {
           var minSrc = 'http://ore34ccr7.bkt.clouddn.com/min_photos/' + data.link[i];
-          var src = 'http://ore34ccr7.bkt.clouddn.com/min_photos/' + data.link[i];
+          var src = 'http://ore34ccr7.bkt.clouddn.com/photos/' + data.link[i];
           var type = data.type[i];
           var target = src + (type === 'video' ? '.mp4' : '.jpg');
           src += '';
